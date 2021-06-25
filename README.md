@@ -1,5 +1,5 @@
-# jvscript.note
-Note From JavaScript
+# note
+Multi Bot From JavaScript
 
 ***For Bot***
 # clone this project
