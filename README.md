@@ -1,5 +1,5 @@
 # note
-Multi Bot From JavaScript
+Multi Bot Whatsapp From NodeJS
 
 ***For Bot***
 # clone this project
