@@ -3,7 +3,7 @@ Multi Chat Bot From Nodejs
 
 ***For Bot***
 # clone this project
->git clone https://github.com/lylanz/jvscript.note.git
+>git clone https://github.com/LanzVian/nodejs-multi-bot.git
 >
 >cd jvscript.note
 
