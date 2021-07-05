@@ -15,6 +15,12 @@ Multi Chat Bot From Nodejs
 >
 >npm start' 
 
+# special Thanks To
+* mhankbarbar
+* adiwajshing/baileys
+* Lanzvian
+* Dll
+
 # error run this project
 ***Contact Me Or report on issues***
 
