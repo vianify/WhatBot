@@ -3,17 +3,15 @@ Multi Chat Bot From Nodejs
 
 ***For Bot***
 # clone this project
->git clone https://github.com/LanzVian/nodejs-multi-bot.git
+>git clone https://github.com/LanzVian/LanzBot.git
 >
->cd jvscript.note
+>cd LanzBot
 
 
 # run this project 
->npm i wget
+> bash install.sh
 >
->npm i
->
->npm start' 
+> node index.js
 
 # special Thanks To
 * mhankbarbar
