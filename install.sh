@@ -1,7 +1,9 @@
-apt update -y && apt upgrade -y
-pkg install wget && pkg install ffmpeg && pkg install nodejs
-npm i -g cwebp
-npm i -g ytdl 
-npm i
-npm i got
-echo " [NOTE] : Bila Semua Command berhasil di jalankan maka tinggal node index.js"
+#!/usr/bin/bash
+
+apt-get update
+apt-get upgrade
+apt-get install -y nodejs libwebp ffmpeg wget tesseract
+wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
+npm install
+
+echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"

@@ -1,25 +1,12 @@
-const
-	{
-		WAConnection,
-		MessageType,
-		WAMessageProto,
-		prepareMessageFromContent,
-		relayWAMessage,
-		Presence,
-		MessageOptions,
-		Mimetype,
-		WALocationMessage,
-		WA_MESSAGE_STUB_TYPES,
-		WA_DEFAULT_EPHEMERAL,
-		ReconnectMode,
-		ProxyAgent,
-		GroupSettingChange,
-		waChatKey,
-		mentionedJid,
-		processTime,
-	} = require('@adiwajshing/baileys')
+const {
+    WAConnection,
+    MessageType,
+    Presence,
+    Mimetype,
+    GroupSettingChange
+} = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
-const { help } = require('./src/help')
+const { help, dowmen, medmen, cremen, funmen, relmen, stcmen, nsfmen, admmen, ownmen, othmen } = require('./src/help')
 const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
 const { fetchJson, fetchText } = require('./lib/fetcher')
 const { recognize } = require('./lib/ocr')
@@ -59,7 +46,7 @@ async function starts() {
 		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code above'))
 	})
 
-	fs.existsSync('./Lanz.json') && client.loadAuthInfo('./Lanz.json')
+	fs.existsSync('./BarBar.json') && client.loadAuthInfo('./BarBar.json')
 	client.on('connecting', () => {
 		start('2', 'Connecting...')
 	})
@@ -67,7 +54,7 @@ async function starts() {
 		success('2', 'Connected')
 	})
 	await client.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./Lanz.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./BarBar.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
 
 	client.on('group-participants-update', async (anu) => {
 		if (!welkom.includes(anu.jid)) return
@@ -228,6 +215,36 @@ async function starts() {
 				case 'help':
 				case 'menu':
 					client.sendMessage(from, help(prefix), text)
+					break
+				case 'downloadmenu':
+					client.sendMessage(from, dowmen(prefix), text)
+					break
+				case 'mediamenu':
+					client.sendMessage(from, medmen(prefix), text)
+					break
+				case 'creatormenu':
+					client.sendMessage(from, cremen(prefix), text)
+					break
+				case 'religimenu':
+					client.sendMessage(from, relmen(prefix), text)
+					break
+				case 'stickermenu':
+					client.sendMessage(from, stcmen(prefix), text)
+					break
+				case 'funmenu':
+					client.sendMessage(from, funmen(prefix), text)
+					break
+				case 'nsfwmenu':
+					client.sendMessage(from, nsfmen(prefix), text)
+					break
+				case 'adminmenu':
+					client.sendMessage(from, admmen(prefix), text)
+					break
+				case 'ownermenu':
+					client.sendMessage(from, ownmen(prefix), text)
+					break
+				case 'othermenu':
+					client.sendMessage(from, othmen(prefix), text)
 					break
 				case 'info':
 					me = client.user
@@ -458,6 +475,9 @@ async function starts() {
 					setting.prefix = prefix
 					fs.writeFileSync('./src/settings.json', JSON.stringify(setting, null, '\t'))
 					reply(`Prefix berhasil di ubah menjadi : ${prefix}`)
+					break
+				case 'tebakgambar':
+					
 					break
 				/*case 'loli':
 					loli.getSFWLoli(async (err, res) => {

@@ -1,7 +1,7 @@
 {
-  "name": "LanzBot",
+  "name": "lanzbot",
   "version": "0.0.2",
-  "description": "MEnGg0K1lL",
+  "description": "Whatsapp ChatBot by LanzVian",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -20,7 +20,7 @@
   "author": "LanzVian",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.1",
+    "@adiwajshing/baileys": "^3.4.1",
     "async": "^3.2.0",
     "axios": "^0.21.1",
     "cfonts": "^2.9.0",
@@ -28,11 +28,10 @@
     "fake-useragent": "^1.0.1",
     "file-type": "^16.2.0",
     "fluent-ffmpeg": "^2.1.2",
-    "got": "^11.8.2",
     "lolis.life": "^4.0.0",
     "moment-timezone": "^0.5.32",
     "multistream": "^4.0.1",
-    "node-fetch": "^3.0.0",
+    "node-fetch": "^2.6.1",
     "remove.bg": "^1.3.0",
     "request": "^2.81.0",
     "spinnies": "^0.5.1",
@@ -41,10 +40,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LanzVian/LanzBot.git"
+    "url": "git+https://github.com/lanzvian/LanzBot.git"
   },
   "bugs": {
-    "url": "https://github.com/LamzVian/LanzBot/issues"
+    "url": "https://github.com/lanzvian/LanzBot/issues"
   },
-  "homepage": "https://github.com/LamzVian/LanzBot#readme"
+  "homepage": "https://github.com/lanzvian/LanzBot#readme"
 }
