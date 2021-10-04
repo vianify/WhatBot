@@ -97,7 +97,7 @@
     "fs-extra": "^10.0.0",
     "mathjs": "^9.5.0",
     "fs-extra": "^9.1.0",
-    "escape-string-regexp": "^1.0.5",
+    "escape-string-regexp": "^5.0.0",
     "fake-useragent": "^1.0.1",
     "fluent-ffmpeg": "^2.1.2",
     "got": "^11.8.1",
