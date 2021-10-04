@@ -57,7 +57,7 @@ limitawal = 99999 //terserah mau ganti apa gak sayang
 memberlimit = 1 //terserah mau ganti apa gak sayang
 namabot = 'Rukio'
 cr = '*「 Rukio」*' //ganti nama bot
-lolkey = 'apinya' //apikey lolhuman
+lolkey = 'a17ecece8bab26c4553de09d' //apikey lolhuman
 lnzkey = 'lanzvian' //apikey lanzvian
 /******** OWNER NUMBER**********/
 
