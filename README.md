@@ -1,18 +1,16 @@
-##CARA INSTALL MELALUI GIT
+## Instalasi
+***NodeJs***
+```
+git clone 
+bash node.sh
+node index.js
+```
 
-> pkg install git
-> gitclone https://github.com/ItsAraZ/Arabot
-> cd arabot
-> bash install.sh
-> npm start
-> scan qr
+***Python***
+```
+git clone 
+bash pyth.sh
+python index.py
+```
 
-##CARA INSTALL
-
-> termux-setup-storage [Y]
-> cd /sdcard
-> cd -r arabot /$HOME
-> cd arabot
-> bash install.sh 
-> npm start
-> Now scan the QR
+## Support
