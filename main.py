@@ -1,4 +1,4 @@
-import "/lib/pymain"
+import hello, dloader
 
 def dloader(`indent('.') ? 'self' : ''`):
   """docstring for dloader"""
