@@ -1,8 +1,4 @@
-import hello, dloader
-
-def dloader(`indent('.') ? 'self' : ''`):
-  """docstring for dloader"""
-  import pprint; pprint.pprint(class ExampleCase(unittest.TestCase):
-    
-    def test_description(self):
-      # TODO: write code...)
+import waautomatepy, wapy
+def ytdl(`indent('.') ? 'self' : ''`):
+  """docstring for ytdl"""
+  
