@@ -30,7 +30,7 @@
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.3.0",
-    "async": "^2.4.1",
+    "async": "^3.2.4",
     "axios": "^0.21.0",
     "cfonts": "^2.9.0",
     "dotenv": "^8.2.0",
